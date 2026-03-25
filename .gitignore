@@ -1,0 +1,33 @@
+# ==========================================
+# NEGOTIATION WINGMAN - .GITIGNORE
+# ==========================================
+
+# 🚨 SECRETS & KEYS (CRITICAL)
+.env
+.env.*
+*.pem
+
+# 🟢 NODE.JS & EXPRESS BACKEND
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ⚛️ REACT CHROME EXTENSION
+# Ignore the compiled extension files (you only want the source code on GitHub)
+dist/
+build/
+out/
+
+# 🐍 PYTHON FASTAPI BRAIN
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+Pipfile.lock
+
+# 💻 OS & EDITOR FILES (Windows/Mac/VS Code)
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
